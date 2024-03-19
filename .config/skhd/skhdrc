@@ -37,4 +37,3 @@ ctrl + shift - f : yabai -m window --toggle zoom-parent
 # toggle floating / sticky
 ctrl + shift - t : yabai -m window --toggle float
 ctrl + shift - s : yabai -m window --toggle sticky
-
