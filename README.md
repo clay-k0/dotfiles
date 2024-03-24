@@ -68,6 +68,9 @@ continue using `stow .` to create symlinks.
 
 However, if you copy a nested directory containing dotfile(s) in here (i.e. from `~/.config/{directory}` into `~/dotfiles/.config/{directory}`), use the `stow --adopt .` command instead.Note that this command will also take care of the above mentioned non-nested dotfiles.
 
-## Screenshot
-![](./config.png)
-Still need to add SketchyBar config
+## Troubleshooting
+
+### Conflicting Changes
+
+If you run into conflicting changes, you can rollback using the `git restore .` command
+
