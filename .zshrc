@@ -114,8 +114,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias vim=nvim
 
-eval "$(starship init zsh)"
-
 # pnpm
 export PNPM_HOME="/Users/clayk/Library/pnpm"
 case ":$PATH:" in
@@ -125,4 +123,5 @@ esac
 # pnpm endeval "$(zoxide init zsh)"
 
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 source /Users/clayk/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
