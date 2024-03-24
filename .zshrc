@@ -111,13 +111,13 @@ zsh-autosuggestions
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias vim=nvim
 alias v=nvim
 
 alias dots='cd ~/dotfiles/'
 alias nvc='cd ~/.config/nvim/'
-alias notes='cd ~/! School/Notes/ODU/Semesters/Spring 2024/'
+alias notes='z Semesters/'
 
 # pnpm
 export PNPM_HOME="/Users/clayk/Library/pnpm"
