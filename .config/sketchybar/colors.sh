@@ -16,6 +16,6 @@ export GREEN=0xff72966c
 export YELLOW=0xff72966c
 export RED=0xffb85651
 
-export BAR_COLOR=0xff282828
+export BAR_COLOR=0xff252424
 export ITEM_BG_COLOR=0xff343334
 export ACCENT_COLOR=$WHITE
