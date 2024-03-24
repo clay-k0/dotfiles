@@ -30,9 +30,9 @@ sketchybar --bar height=30 \
 # For a full list of all available item properties see:
 # https://felixkratz.github.io/SketchyBar/config/items
 
-sketchybar --default icon.font="SF Pro:Medium:15.0" \
+sketchybar --default icon.font="SF Pro:Regular:15.0" \
 	icon.color=$WHITE \
-	label.font="SF Pro:Medium:15.0" \
+	label.font="SF Pro:Regular:15.0" \
 	label.color=$WHITE \
 	background.color=$ITEM_BG_COLOR \
 	background.corner_radius=4 \
@@ -48,7 +48,7 @@ sketchybar --default icon.font="SF Pro:Medium:15.0" \
 source $ITEM_DIR/spaces.sh
 source $ITEM_DIR/front_app.sh
 
-# -- Right Side Of Notch Items --
+# -- Center Items --
 source $ITEM_DIR/media.sh
 
 # -- Right Side Items --
