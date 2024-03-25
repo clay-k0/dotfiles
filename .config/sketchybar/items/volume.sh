@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/zsh
 
 sketchybar --add item volume right \
 	--set volume script="$PLUGIN_DIR/volume.sh" \
-	--subscribe volume volume_change
+	--subscribe volume volume_change \
+	icon.color=0xffebdab1
