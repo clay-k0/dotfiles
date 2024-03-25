@@ -11,13 +11,17 @@ fi
 
 ICON="battery"
 
-if [ ${PERCENTAGE} -ge 90 ]; then
-	COLOR=$WHITE
-elif [ ${PERCENTAGE} -ge 50 ]; then
-	COLOR=$YELLOW
-elif [ ${PERCENTAGE} -ge 20 ]; then
-	COLOR=$RED
-fi
+case ${PERCENTAGE} in
+  9[0-9]|100) COLOR=$WHITE
+  ;;
+  [6-8][0-9]) COLOR=$WHITE
+  ;;
+  [3-5][0-9]) COLOR=$YELLOW
+  ;;
+  [1-2][0-9]) COLOR=$RED
+  ;;
+  *) COLOR=$RED
+esac
 
 if [ -n "$CHARGING" ]; then
 	PERCENTAGE="${PERCENTAGE}%*"
