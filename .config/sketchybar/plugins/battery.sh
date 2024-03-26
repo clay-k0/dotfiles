@@ -24,7 +24,7 @@ case ${PERCENTAGE} in
 esac
 
 if [ -n "$CHARGING" ]; then
-	PERCENTAGE="${PERCENTAGE}%*"
+	PERCENTAGE="${PERCENTAGE}%⁺"
 else
 	PERCENTAGE="${PERCENTAGE}%"
 fi

@@ -50,11 +50,12 @@ source $ITEM_DIR/spaces.sh
 
 # -- Center Items --
 # source $ITEM_DIR/media.sh
+source $ITEM_DIR/spotify.sh
 
 # -- Right Side Items --
 source $ITEM_DIR/date.sh
 source $ITEM_DIR/current_time.sh
-source $ITEM_DIR/volume.sh
+# source $ITEM_DIR/volume.sh
 source $ITEM_DIR/cpu.sh
 source $ITEM_DIR/battery.sh
 
