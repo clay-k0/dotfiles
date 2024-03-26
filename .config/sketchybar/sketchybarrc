@@ -52,6 +52,7 @@ source $ITEM_DIR/spaces.sh
 # source $ITEM_DIR/media.sh
 
 # -- Right Side Items --
+source $ITEM_DIR/date.sh
 source $ITEM_DIR/current_time.sh
 source $ITEM_DIR/volume.sh
 source $ITEM_DIR/cpu.sh
