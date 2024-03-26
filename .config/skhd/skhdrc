@@ -50,6 +50,9 @@ shift + cmd - x : yabai -m space --mirror x-axis
 # flip along y-axis
 shift + cmd - y : yabai -m space --mirror y-axis
 
+# balance out tree of windows (resize to occupy same area)
+shift + cmd - e : yabai -m space --balance
+
 # swap windows
 shift + cmd - j : yabai -m window --swap south
 shift + cmd - k : yabai -m window --swap north
