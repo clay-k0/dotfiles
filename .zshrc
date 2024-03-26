@@ -117,7 +117,7 @@ alias v=nvim
 
 alias dots='cd ~/dotfiles/'
 alias nvc='cd ~/.config/nvim/'
-alias notes='z /Semesters/'
+alias notes='cd ~/\!\ School/Notes/'
 
 # pnpm
 export PNPM_HOME="/Users/clayk/Library/pnpm"
