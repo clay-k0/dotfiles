@@ -118,6 +118,7 @@ alias v=nvim
 alias dots='cd ~/dotfiles/'
 alias nvc='cd ~/.config/nvim/'
 alias notes='cd ~/Personal/Notes/'
+alias c='clear'
 
 # pnpm
 export PNPM_HOME="/Users/clayk/Library/pnpm"
