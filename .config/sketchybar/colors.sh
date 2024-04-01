@@ -17,4 +17,4 @@ export YELLOW=0xffd69821
 export RED=0xffcb231d
 
 export BAR_COLOR=0xff141617
-export ACCENT_COLOR=0xffa89883
+export ACCENT_COLOR=0xffebdab1
