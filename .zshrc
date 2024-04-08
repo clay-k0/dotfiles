@@ -120,6 +120,12 @@ alias nvc='cd ~/.config/nvim/'
 alias notes='cd ~/Personal/Notes/'
 alias c='clear'
 
+export GOPATH=$HOME/go
+  export GOROOT=/usr/local/go
+  export GOBIN=$GOPATH/bin
+  export PATH=$PATH:$GOPATH
+  export PATH=$PATH:$GOROOT/bin
+
 # pnpm
 export PNPM_HOME="/Users/clayk/Library/pnpm"
 case ":$PATH:" in
