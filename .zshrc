@@ -123,7 +123,6 @@ alias c='clear'
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH
-export PATH=$PATH:$GOROOT/bin
 
 # pnpm
 export PNPM_HOME="/Users/clayk/Library/pnpm"
