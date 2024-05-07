@@ -15,13 +15,13 @@ Git can be installed using your preferred package manager
 
 For example, using `pacman`:
 
-```
+```sh
 pacman -S brew
 ```
 
 or `brew`:
 
-```
+```sh
 brew install git
 ```
 
@@ -31,13 +31,13 @@ Stow can also be installed using your favorite package manager
 
 For example, using `pacman`:
 
-```
+```sh
 pacman -S stow
 ```
 
 or `brew`:
 
-```
+```sh
 brew install stow
 ```
 
@@ -45,14 +45,20 @@ brew install stow
 
 Clone this repo in your $HOME directory and navigate to it using the following commands:
 
-```
+```sh
 git clone https://github.com/clay-k0/dotfiles.git 
 cd dotfiles
 ```
 
+If anyone other than me uses this, make sure to remove remove `.git`:
+
+```sh
+rm -rf .git
+```
+
 Then, use GNU stow to create symlinks
 
-```
+```sh
 stow .
 ```
 
